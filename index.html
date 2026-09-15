@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LATIHAN SATU</title>
+    <title>form login dianimut</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="color: rgb(206, 95, 114)">MOMENT SAAT MASUK KELAS SEBELAS</h1>
-    <img src="dikelas.jpg" alt="dikelas.jpg" style="width: 300px height 200px">
-    <p style="color: rgb(255, 158, 158)">Saat berada dikelas sebelas, Saya merasa sangat senang dan seru dengan mempunyai pengalaman baru dan teman-teman yang menemani dari kelas sepuluh hingga sekarang.Di kelas ini, saya mendapatkan banyak pengalaman baru, Mulai dari belajar bersama,mengerjakan tugas dan mengikuti banyak kegiatan hingga bercanda dan menghabiskan waktu bersama teman.Meskipun terkadang ada perbedaan pendapat dan kesulitan dalam belajar, semua itu menjadi bagian dari proses untuk menjadi lebih dewasa.</p>
-    <p style="color:rgb(255, 158, 158)">Guru-guru juga menjadi bagian penting dalam perjalanan saya dikelas 11. Mereka  tidak hanya mengajarkan materi pelajaran,tetapi juga memberikan nasihat, motivasi, dan arahan kepada kami. Setiap guru memiliki cara mengajar dan karakter yang berbeda, sehingga membuat suasana belajar menjadi lebih berwarna. Meskipun terkadang kami mendapatkan teguran atau tugas cukup banyak, saya menyadari bahwa semua itu dilakukan agar kami menjadi lebih disiplin, bertanggung jawab, dan lebih siap menghadapi masa depan.</p>
+    <div class="form-login" style="background-image: url('background.png');">
+    <form action="#" method="POST">
+        <fieldset>
+        <h1 style="color: white;">LOGIN</h1>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." style="padding-right: 5px;" />
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p class="tombol">
+            <input type="submit" name="tombol" value="Login" class="input-tombol" />
+        </p>
+        </fieldset>
+    </form>
+    </div>
 </body>
 </html>

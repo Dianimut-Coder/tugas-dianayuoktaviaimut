@@ -1,0 +1,24 @@
+.form-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30;
+    margin-top: 170px;
+}
+
+fieldset {
+    background-color: rgb(248, 126, 193);
+}
+
+fieldset h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tombol {
+    text-align: center;
+}
+
+.input-tombol {
+    padding: 5px 40px;
+}
